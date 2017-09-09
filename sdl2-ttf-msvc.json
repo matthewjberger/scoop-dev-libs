@@ -1,0 +1,18 @@
+{
+    "version": "2.0.14",
+    "license": "https://www.libsdl.org/license.php",
+    "extract_dir": "SDL2_ttf-2.0.14",
+    "url": "https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip",
+    "homepage": "https://www.libsdl.org/projects/SDL_ttf",
+    "hash": "f8ed51e7bb1122cf4dbbc4c47ab8eb13614fae233a20a6b9a5694769b0413c1a",
+    "env_set": {
+        "SDL2TTFDIR": "$dir"
+    },
+    "checkver": {
+        "re": ">SDL2_ttf-devel-(\\d+\\.\\d+\\.\\d+)-VC.zip"
+    },
+    "autoupdate": {
+        "url": "https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-$version-VC.zip",
+        "extract_dir": "SDL2_ttf-$version"
+    }
+}
