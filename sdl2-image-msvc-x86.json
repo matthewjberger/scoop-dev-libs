@@ -6,8 +6,11 @@
     "homepage": "https://www.libsdl.org/projects/SDL_image",
     "hash": "adf6b1247960cd0fcea2ba2a70eb30bbdcf43ee246f78cf1bcccd1111305b451",
     "env_set": {
-        "SDL2IMAGEDIR": "$dir"
+        "SDL2IMAGEDIR": "$dir",
+        "SDL2IMAGE_INCLUDE_DIR": "$dir\\include",
+        "SDL2IMAGE_LIBRARY_DIR": "$dir\\lib\\x86"
     },
+    "env_add_path": "$dir\\lib\\x86",
     "checkver": {
         "re": ">SDL2_image-devel-(\\d+\\.\\d+\\.\\d+)-VC.zip"
     },

@@ -6,8 +6,11 @@
     "homepage": "https://www.libsdl.org/projects/SDL_net",
     "hash": "c1e423f2068adc6ff1070fa3d6a7886700200538b78fd5adc36903a5311a243e",
     "env_set": {
-        "SDL2NETDIR": "$dir"
+        "SDL2NETDIR": "$dir",
+        "SDL2NET_INCLUDE_DIR": "$dir\\include",
+        "SDL2NET_LIBRARY_DIR": "$dir\\lib\\x86"
     },
+    "env_add_path": "$dir\\lib\\x86",
     "checkver": {
         "re": ">SDL2_net-devel-(\\d+\\.\\d+\\.\\d+)-VC.zip"
     },

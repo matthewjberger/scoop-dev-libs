@@ -1,0 +1,21 @@
+{
+    "version": "2.0.1",
+    "license": "https://www.libsdl.org/license.php",
+    "extract_dir": "SDL2_image-2.0.1",
+    "url": "https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.1-VC.zip",
+    "homepage": "https://www.libsdl.org/projects/SDL_image",
+    "hash": "adf6b1247960cd0fcea2ba2a70eb30bbdcf43ee246f78cf1bcccd1111305b451",
+    "env_set": {
+        "SDL2IMAGEDIR": "$dir",
+        "SDL2IMAGE_INCLUDE_DIR": "$dir\\include",
+        "SDL2IMAGE_LIBRARY_DIR": "$dir\\lib\\x64"
+    },
+    "env_add_path": "$dir\\lib\\x64",
+    "checkver": {
+        "re": ">SDL2_image-devel-(\\d+\\.\\d+\\.\\d+)-VC.zip"
+    },
+    "autoupdate": {
+        "url": "https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-$version-VC.zip",
+        "extract_dir": "SDL2_image-$version"
+    }
+}

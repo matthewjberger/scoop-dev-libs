@@ -6,8 +6,11 @@
     "homepage": "https://www.libsdl.org/projects/SDL_mixer",
     "hash": "b1ebd8dc4f2921726f51eddda64b6d81caf6fc05214f50a768e629e801304987",
     "env_set": {
-        "SDL2MIXERDIR": "$dir"
+        "SDL2MIXERDIR": "$dir",
+        "SDL2MIXER_INCLUDE_DIR": "$dir\\include",
+        "SDL2MIXER_LIBRARY_DIR": "$dir\\lib\\x64"
     },
+    "env_add_path": "$dir\\lib\\x64",
     "checkver": {
         "re": ">SDL2_mixer-devel-(\\d+\\.\\d+\\.\\d+)-VC.zip"
     },

@@ -6,8 +6,11 @@
     "homepage": "https://www.libsdl.org",
     "hash": "5af6a1a0f19a297c107489f271d61f96257aae3fdceae8515ead8311cfac0711",
     "env_set": {
-        "SDL2DIR": "$dir"
+        "SDL2DIR": "$dir",
+        "SDL2_INCLUDE_DIR": "$dir\\include",
+        "SDL2_LIBRARY_DIR": "$dir\\lib\\x86"
     },
+    "env_add_path": "$dir\\lib\\x86",
     "checkver": {
         "url": "https://www.libsdl.org/download-2.0.php",
         "re": ">SDL version (\\d+\\.\\d+\\.\\d+) \\(stable\\)"
