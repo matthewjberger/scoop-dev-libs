@@ -1,0 +1,17 @@
+{
+    "version": "3.3.1",
+    "license": "BSD3",
+    "url": "https://github.com/opencv/opencv/releases/download/3.3.1/opencv-3.3.1-vc14.exe#/dl.7z",
+    "homepage": "https://opencv.org/",
+    "hash": "17177f7e59f623d3690486f1c27a7529e95d2a7724912f7af3b03b1c3e9fe9d2",
+    "extract_dir": "opencv",
+    "env_set": {
+        "OpenCV_DIR": "$dir\\build"
+    },
+    "checkver": {
+        "github": "https://github.com/opencv/opencv"
+    },
+    "autoupdate": {
+        "url": "https://github.com/opencv/opencv/releases/download/$version/opencv-$version-vc14.exe#/dl.7z"
+    }
+}
