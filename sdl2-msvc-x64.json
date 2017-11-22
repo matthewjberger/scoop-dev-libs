@@ -1,10 +1,10 @@
 {
-    "version": "2.0.5",
+    "version": "2.0.7",
     "license": "https://www.libsdl.org/license.php",
-    "extract_dir": "SDL2-2.0.5",
-    "url": "https://www.libsdl.org/release/SDL2-devel-2.0.5-VC.zip",
+    "extract_dir": "SDL2-2.0.7",
+    "url": "https://www.libsdl.org/release/SDL2-devel-2.0.7-VC.zip",
     "homepage": "https://www.libsdl.org",
-    "hash": "5af6a1a0f19a297c107489f271d61f96257aae3fdceae8515ead8311cfac0711",
+    "hash": "572dbed4ddc236498e53bd93092d677f65cfc8faec64e0b99e8752f6358efcc1",
     "env_set": {
         "SDL2DIR": "$dir",
         "SDL2_INCLUDE_DIR": "$dir\\include",

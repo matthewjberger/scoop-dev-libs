@@ -1,10 +1,10 @@
 {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "license": "https://www.libsdl.org/license.php",
-    "extract_dir": "SDL2_mixer-2.0.1",
-    "url": "https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.1-VC.zip",
+    "extract_dir": "SDL2_mixer-2.0.2",
+    "url": "https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.2-VC.zip",
     "homepage": "https://www.libsdl.org/projects/SDL_mixer",
-    "hash": "b1ebd8dc4f2921726f51eddda64b6d81caf6fc05214f50a768e629e801304987",
+    "hash": "3f7b727ce0f08cff21a87593c22ab48ad77a22b88fc22976768597296eae3258",
     "env_set": {
         "SDL2MIXERDIR": "$dir",
         "SDL2MIXER_INCLUDE_DIR": "$dir\\include",
